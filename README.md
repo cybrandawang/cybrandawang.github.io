@@ -1,2 +1,0 @@
-# cybrandawang.github.io
-cv
