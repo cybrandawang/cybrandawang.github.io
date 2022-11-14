@@ -49,7 +49,7 @@ body .shell-main::before {
   content: '';
   width: 250px;
   height: 50%;
-  background-image: linear-gradient(to bottom, #a1e6ff, #a8ffe2, #a1e6ff);
+  background-image: linear-gradient(to bottom, rgba(252, 218, 241, 0.3), rgba(252, 218, 241, 0.3), rgba(252, 218, 241, 0.3));
   position: absolute;
   transform: translate(-145%, 0);
   z-index: -999;
@@ -60,7 +60,7 @@ body .shell-main::after {
   content: '';
   width: 250px;
   height: 50%;
-  background-image: linear-gradient(to bottom, #a1e6ff, #a8ffe2, #a1e6ff);
+  background-image: linear-gradient(to bottom, rgba(252, 218, 241, 0.3), rgba(252, 218, 241, 0.3), rgba(252, 218, 241, 0.3));
   position: absolute;
   transform: translate(145%);
   z-index: -999;
@@ -141,7 +141,7 @@ body .shell-main-nav ul li:nth-child(2):hover~.nav-box {
 
 body .shell-main-nav ul li:nth-child(3):hover~.nav-box {
   left: 240px;
-  background-color: #8da1f8;
+  background-color: rgba(252, 218, 241, 0.3);
 }
 
 body .shell-main-nav ul li:nth-child(4):hover~.nav-box {
@@ -241,7 +241,7 @@ body .shell-main-lbt .button {
 body .shell-main-lbt .button .button-left,
 body .shell-main-lbt .button .button-right {
   font-size: 50px;
-  background-color: rgba(160, 193, 255, 0.7);
+  background-color: rgba(252, 218, 241, 0.3);
   padding: 0 20px;
   cursor: pointer;
   line-height: 500px;
@@ -275,7 +275,7 @@ body .shell-main-header-left::after {
   content: '';
   width: 200px;
   height: 15px;
-  background-color: #8ddff8;
+  background-color: rgba(252, 218, 241, 0.3);
   opacity: 0.8;
   position: absolute;
   top: 0;
@@ -286,7 +286,7 @@ body .shell-main-header-left::before {
   content: '';
   width: 250px;
   height: 250px;
-  border: 20px solid rgba(0, 255, 255, 0.3);
+  border: 20px solid rgba(252, 218, 241, 0.3);
   position: absolute;
   bottom: -30px;
   left: -140px;
@@ -476,14 +476,14 @@ body .shell-main-bottom {
 
 body .shell-main-bottom h2 {
   font: 100 34px 'font';
-  color: #48afa5;
+  color:rgba(243, 38, 178, 0.3);
   letter-spacing: 5px;
   margin-left: 100px;
 }
 
 body .shell-main-bottom h2 span {
   font-size: 80px;
-  color: turquoise;
+  color:rgba(243, 38, 178, 0.3);
 }
 
 body .shell-main-bottom-bottom {
@@ -499,7 +499,7 @@ body .shell-main-bottom-bottom::before {
   content: '';
   width: 250px;
   height: 250px;
-  border: 20px solid rgba(0, 255, 255, 0.3);
+  border: 20px solid rgba(252, 218, 241, 0.3);
   position: absolute;
   border-radius: 10px;
   right: 70px;
@@ -588,7 +588,7 @@ body .shell-main-image {
 
 body .shell-main-image h2 {
   font-size: 30px;
-  color: turquoise;
+  color: rgba(150, 182, 253, 0.3);
 }
 
 body .shell-main-image span {
